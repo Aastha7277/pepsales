@@ -4,9 +4,11 @@
   "description": "",
   "main": "./src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/server.js"
-  },
+  "dev": "nodemon ./src/server.js",
+  "start:api": "nodemon ./src/server.js",
+  "start:consumer": "node ./src/queues/consumer.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
